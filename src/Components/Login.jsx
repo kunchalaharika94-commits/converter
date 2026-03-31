@@ -2,7 +2,7 @@ import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import "./Stylings/Login.css";
 
-function Login({ onBack, setShowNavbarLogin }) {
+function Login({ onBack }) {
   const [email, setEmail] = useState("");
   const navigate = useNavigate();
 
@@ -26,7 +26,7 @@ function Login({ onBack, setShowNavbarLogin }) {
     localStorage.setItem("user", email);
     console.log("User saved:", localStorage.getItem("user"));
     navigate("/home");
-    window.location.reload();
+    window.location.reload(); // Refresh to update navbar
   };
 
   return (

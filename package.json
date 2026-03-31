@@ -1,5 +1,5 @@
 {
-  "homepage": "https://kunchalaharika94-commits.github.i0/currencyconverter",
+  "homepage": "https://github.com/kunchalaharika94-commits/currencyconvert.git",
   "name": "currencyconverter-project",
   "private": true,
   "version": "0.0.0",
@@ -9,8 +9,8 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d dist"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "react": "^19.2.0",
